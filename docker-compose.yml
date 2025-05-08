@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../results/models:/app/models
+    environment:
+      - MODEL_PATH=/app/models/best_model.keras
+      - EMBEDDING_MODEL_PATH=/app/models/fasttext_model.pkl
+    restart: always

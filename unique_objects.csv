@@ -1,0 +1,1121 @@
+Object_CUI,Object_Name
+C0021390,Inflammatory Bowel Diseases
+C0027051,Myocardial Infarction
+C1261469,End stage renal failure
+C0242383,Age related macular degeneration
+C0012634,Disease
+C1260899,Diamond-Blackfan anemia
+C0014544,Epilepsy
+C0029458,"Osteoporosis, Postmenopausal"
+C0036421,Systemic Scleroderma
+C0034735,Raynaud Phenomenon
+C0009324,Ulcerative Colitis
+C0010346,Crohn's disease
+C0015230,Exanthema
+C0042345,Varicosity
+C0010823,Cytomegalovirus Infections
+C0029456,Osteoporosis
+C0235329,Small bowel obstruction NOS
+C0595921,Intraocular pressure disorder
+C0021311,Infection
+C0013384,Dyskinetic syndrome
+C0007222,Cardiovascular Diseases
+C0010068,Coronary heart disease
+C0018801,Heart failure
+C0020538,Hypertensive disease
+C0004096,Asthma
+C0043352,Xerostomia
+C0393735,Headache Disorders
+C0149931,Migraine Disorders
+C0271561,Somatotropin deficiency
+C0033860,Psoriasis
+C0032460,Polycystic Ovary Syndrome
+C0020459,Hyperinsulinism
+C0150055,Chronic pain
+C0024141,"Lupus Erythematosus, Systemic"
+C0040261,Onychomycosis
+C1619734,Pulmonary arterial hypertension
+C0014836,Escherichia coli Infections
+C0002395,Alzheimer's Disease
+C0042769,Virus Diseases
+C0038454,Cerebrovascular accident
+C0030567,Parkinson Disease
+C0026769,Multiple Sclerosis
+C0155626,Acute myocardial infarction
+C0020542,"Hypertension, Pulmonary"
+C0020473,Hyperlipidemia
+C0022660,"Kidney Failure, Acute"
+C0035243,Respiratory Tract Infections
+C0029408,Degenerative polyarthritis
+C0409959,"Osteoarthritis, Knee"
+C0023895,Liver diseases
+C0019196,Hepatitis C
+C0264716,Chronic heart failure
+C0014742,Erythema Multiforme
+C0007682,CNS disorder
+C0272285,Heparin-induced thrombocytopenia
+C0038525,Subarachnoid Hemorrhage
+C0014553,Absence Epilepsy
+C0019158,Hepatitis
+C0004623,Bacterial Infections
+C0238644,anemia; profound
+C0024143,Lupus Nephritis
+C0041327,"Tuberculosis, Pulmonary"
+C0041909,Upper gastrointestinal hemorrhage
+C0040034,Thrombocytopenia
+C0011849,Diabetes Mellitus
+C0039082,Syndrome
+C0035435,Rheumatism
+C0017601,Glaucoma
+C0028754,Obesity
+C1290884,Inflammatory disorder
+C0009088,Cluster Headache
+C0016053,Fibromyalgia
+C0458219,Complex Regional Pain Syndromes
+C0002871,Anemia
+C0030809,Pemphigus Vulgaris
+C0282193,Iron Overload
+C0003873,Rheumatoid Arthritis
+C0022661,"Kidney Failure, Chronic"
+C0400966,Non-alcoholic fatty liver
+C0033687,Proteinuria
+C0011860,"Diabetes Mellitus, Non-Insulin-Dependent"
+C0025517,Metabolic Diseases
+C0242350,Erectile dysfunction
+C0020443,hypercholesterolemia
+C0020514,Hyperprolactinemia
+C0027404,Narcolepsy
+C1565489,Renal Insufficiency
+C0011633,Dermatomyositis
+C0009663,Anogenital venereal warts
+C0002103,Allergic rhinitis NOS
+C0027947,Neutropenia
+C0948265,Metabolic syndrome
+C0004364,Autoimmune Diseases
+C0012739,Disseminated Intravascular Coagulation
+C0149871,Deep Vein Thrombosis
+C0002880,Autoimmune hemolytic anemia
+C0242422,Parkinsonian Disorders
+C0003864,Arthritis
+C0393819,"Polyradiculoneuropathy, Chronic Inflammatory Demyelinating"
+C0035258,Restless Legs Syndrome
+C0856169,Endothelial dysfunction
+C0020503,"Hyperparathyroidism, Secondary"
+C0020456,Hyperglycemia
+C0027773,Nesidioblastosis
+C0151714,hypermagnesemia
+C0087086,Thrombus
+C0242339,Dyslipidemias
+C0040156,Thyrotoxicosis
+C0022658,Kidney Diseases
+C0271084,Exudative age-related macular degeneration
+C0948089,Acute coronary syndrome
+C0036690,Septicemia
+C0013264,"Muscular Dystrophy, Duchenne"
+C0004153,Atherosclerosis
+C0040558,Toxoplasmosis
+C0553662,Chronic Childhood Arthritis
+C0008679,Chronic Disease
+C0024115,Lung diseases
+C0010674,Cystic Fibrosis
+C0017205,Gaucher Disease
+C0020437,Hypercalcemia
+C0011847,Diabetes
+C0041296,Tuberculosis
+C0022116,Ischemia
+C0043037,Common wart
+C0024530,Malaria
+C0524851,Neurodegenerative Disorders
+C0013295,Duodenal Ulcer
+C0079487,Helicobacter Infections
+C0021400,Influenza
+C0034494,Rabies
+C0014175,"Endometriosis, site unspecified"
+C0949083,Nosocomial pneumonia
+C0023290,"Leishmaniasis, Visceral"
+C0024117,Chronic Obstructive Airway Disease
+C0740391,Middle Cerebral Artery Occlusion
+C0011615,"Dermatitis, Atopic"
+C0085253,"Still's Disease, Adult-Onset"
+C0034065,Pulmonary Embolism
+C0002895,Sickle Cell Anemia
+C0398650,Immune thrombocytopenic purpura
+C0027726,Nephrotic Syndrome
+C0033581,prostatitis
+C0035204,Respiration Disorders
+C0006267,Bronchiectasis
+C0524910,"Hepatitis C, Chronic"
+C0037769,Infantile spasms
+C0398623,Thrombophilia
+C0039483,Temporal Arteritis
+C0010054,Coronary Arteriosclerosis
+C0008582,Chromoblastomycosis
+C0024449,Maduromycosis
+C0004610,Bacteremia
+C0878773,Overactive Bladder
+C0038220,Status Epilepticus
+C0001144,Acne Vulgaris
+C0042373,Vascular Diseases
+C0017178,Gastrointestinal Diseases
+C0020550,Hyperthyroidism
+C0020676,Hypothyroidism
+C0524909,"Hepatitis B, Chronic"
+C0041228,African Trypanosomiasis
+C0085580,Essential Hypertension
+C0020502,Hyperparathyroidism
+C0264714,Acute heart failure
+C0019342,genital herpes
+C0002171,Alopecia Areata
+C0036262,Scabies
+C0022408,Arthropathies NOS
+C0339143,Thyroid associated opthalmopathies
+C0015397,Eye diseases
+C0018213,Graves' Disease
+C0206526,"Tuberculosis, Multidrug-Resistant"
+C0038160,Staphylococcal Infections
+C0003969,Ascorbic Acid Deficiency
+C0019156,Hepatic Veno-Occlusive Disease
+C0948441,Venoocclusive disease
+C0027765,nervous system disorder
+C0011881,Diabetic Nephropathy
+C0009450,Communicable Diseases
+C0151317,Chronic infectious disease
+C0004943,Behcet Syndrome
+C0019693,HIV Infections
+C0023976,Long QT Syndrome
+C0011269,"Dementia, Vascular"
+C0029434,Osteogenesis Imperfecta
+C0751956,"Stroke, Acute"
+C0276688,Pulmonary cryptococcosis
+C0031069,Familial Mediterranean Fever
+C0085436,"Meningitis, Cryptococcal"
+C0162316,Iron deficiency anemia
+C0030305,Pancreatitis
+C1264606,Persistent infection
+C0011884,Diabetic Retinopathy
+C0035579,Rickets
+C0006111,Brain Diseases
+C0013537,Eclampsia
+C0677607,Hashimoto Disease
+C0023281,Leishmaniasis
+C0035222,"Respiratory Distress Syndrome, Adult"
+C0018099,Gout
+C0035436,Rheumatic Fever
+C0000786,Spontaneous abortion
+C0740394,Hyperuricemia
+C0003872,"Arthritis, Psoriatic"
+C0006287,Bronchopulmonary Dysplasia
+C0730607,Severe chronic obstructive pulmonary disease
+C0042029,Urinary tract infection
+C0013884,Filarial Elephantiases
+C0029001,Onchocerciasis
+C0019247,Hereditary Diseases
+C0206062,"Lung Diseases, Interstitial"
+C0019189,"Hepatitis, Chronic"
+C0019069,Hemophilia A
+C0678236,Rare Diseases
+C0038013,Ankylosing spondylitis
+C0019202,Hepatolenticular Degeneration
+C0520679,"Sleep Apnea, Obstructive"
+C0037199,Sinusitis
+C0026946,Mycoses
+C0038218,Status Asthmaticus
+C0041234,Chagas Disease
+C0018133,Graft-vs-Host Disease
+C0007785,Cerebral Infarction
+C0702166,Acne
+C0019163,Hepatitis B
+C0002874,Aplastic Anemia
+C1269831,Infection due to resistant organism
+C0008370,Cholestasis
+C0159020,Convulsions in the newborn
+C0002726,Amyloidosis
+C0017168,Gastroesophageal reflux disease
+C0030920,Peptic Ulcer
+C0018802,Congestive heart failure
+C0023890,Liver Cirrhosis
+C0948008,Ischemic stroke
+C0036992,Short Bowel Syndrome
+C0241910,"Hepatitis, Autoimmune"
+C0037274,skin disorder
+C0085096,Peripheral Vascular Diseases
+C0013312,Dupuytren's Contracture
+C0031046,Pericarditis
+C0025637,Methemoglobinemia
+C0030590,Paroxysmal supraventricular tachycardia
+C0272286,Immune thrombocytopenia
+C0005283,beta Thalassemia
+C0684275,"Hemophilia, NOS"
+C0239946,"Fibrosis, Liver"
+C0034069,Pulmonary Fibrosis
+C1145670,Respiratory Failure
+C1609538,Latent tuberculosis
+C0032914,Pre-Eclampsia
+C0004030,Aspergillosis
+C0162311,Androgenetic Alopecia
+C0403425,Focal segmental glomerulosclerosis
+C0035309,Retinal Diseases
+C0019348,Herpes Simplex Infections
+C0022104,Irritable Bowel Syndrome
+C1536220,STEMI
+C0024138,"Lupus Erythematosus, Discoid"
+C0002438,Amebiasis
+C0008677,"Bronchitis, Chronic"
+C0038395,Streptococcal Infections
+C0392618,Postoperative infection NOS
+C0019357,"Keratitis, Herpetic"
+C0020635,Hypopituitarism
+C0041466,Typhoid Fever
+C0553576,Systemic mycosis
+C0026918,Mycobacterium Infections
+C0263678,Acute arthritis
+C0024591,Malignant hyperpyrexia due to anesthesia
+C0011608,Dermatitis Herpetiformis
+C0021053,Immune System Diseases
+C0155880,Intrinsic asthma NOS
+C0686347,Tardive Dyskinesia
+C0042510,Ventricular Fibrillation
+C0151744,Myocardial Ischemia
+C0041318,"Tuberculosis, Meningeal"
+C0151740,Intracranial Hypertension
+C0001957,Alcohol Withdrawal Delirium
+C0034063,Pulmonary Edema
+C0017609,"Glaucoma, Neovascular"
+C0029882,Otitis Media
+C0022081,Iritis
+C0023885,Liver Abscess
+C0276926,Schistosoma hematobium infection
+C0234119,Neuromuscular inhibition
+C0018799,Heart Diseases
+C0043092,Wegener's Granulomatosis
+C0155877,Extrinsic asthma NOS
+C0240066,Iron deficiency
+C0042025,"Urinary Incontinence, Stress"
+C0002453,Amenorrhea
+C0010380,Croup
+C0036323,Schistosomiasis
+C0006849,Oral candidiasis
+C0001824,Agranulocytosis
+C0242362,"Disk, Herniated"
+C0013395,Dyspepsia
+C0040997,Trigeminal Neuralgia
+C0017612,"Glaucoma, Open-Angle"
+C0025289,Meningitis
+C0002888,"Anemia, Megaloblastic"
+C0035078,Kidney Failure
+C0015371,Extrapyramidal Disorders
+C0035086,Renal Osteodystrophy
+C0018378,Guillain-Barre Syndrome
+C0341439,Chronic liver disease NOS
+C0026896,Myasthenia Gravis
+C0039240,Supraventricular tachycardia
+C0017152,Gastritis
+C0750197,Sustained ventricular tachycardia
+C0006266,Bronchial Spasm
+C0001175,Acquired Immunodeficiency Syndrome
+C0017665,"Glomerulonephritis, Membranous"
+C0267176,Diabetic gastroparesis
+C0002965,Unstable angina
+C0002736,Amyotrophic Lateral Sclerosis
+C0002963,"Angina Pectoris, Variant"
+C0031485,Phenylketonurias
+C0027849,Neuroleptic Malignant Syndrome
+C0341697,Renal impairment
+C1142276,Renal anemia
+C0042164,Uveitis
+C0035457,"Rhinitis, Allergic, Perennial"
+C0036117,Salmonella infections
+C0870082,Hyperkeratosis
+C0020179,Huntington Disease
+C0023343,Leprosy
+C0035854,Rosacea
+C0039614,Tetanus
+C0007789,Cerebral Palsy
+C0277528,Traveler's diarrhea
+C0020619,Hypogonadism
+C0013595,Eczema
+C0036508,Seborrheic dermatitis
+C0016412,Folic Acid Deficiency
+C0032285,Pneumonia
+C0022354,"Jaundice, Obstructive"
+C0017605,Angle Closure Glaucoma
+C0034013,"Puberty, Precocious"
+C0018081,Gonorrhea
+C0263338,Chronic urticaria
+C0014547,"Epilepsies, Partial"
+C0035305,Retinal Detachment
+C0020428,Hyperaldosteronism
+C0022876,"Obstetric Labor, Premature"
+C0011606,"Dermatitis, Exfoliative"
+C0042384,Vasculitis
+C0040954,Infection by Trichuris trichiura
+C0006277,Bronchitis
+C0011630,Dermatomycoses
+C0032371,Poliomyelitis
+C0039621,Tetany
+C0001206,Acromegaly
+C0878544,Cardiomyopathies
+C0730345,Microalbuminuria
+C0038358,Gastric ulcer
+C0028840,Ocular Hypertension
+C1096063,Intractable epilepsy
+C0206178,Cytomegalovirus Retinitis
+C0456103,Sepsis of the newborn
+C0020445,"Hypercholesterolemia, Familial"
+C0031154,Peritonitis
+C0008312,Primary biliary cirrhosis
+C0013502,Echinococcosis
+C0021775,Intermittent Claudication
+C0029443,Osteomyelitis
+C0034155,"Purpura, Thrombotic Thrombocytopenic"
+C0032768,Postherpetic neuralgia
+C0042900,Vitiligo
+C0029118,Opportunistic Infections
+C0343401,MRSA - Methicillin resistant Staphylococcus aureus infection
+C0018621,Hay fever
+C0085278,Antiphospholipid Syndrome
+C0403398,Steroid-dependent nephrotic syndrome
+C0013238,Dry Eye Syndromes
+C0019151,Hepatic Encephalopathy
+C0740441,Acute diarrhea
+C0341950,Severe pre-eclampsia unspecified
+C0338437,Neurocysticercosis
+C0011854,"Diabetes Mellitus, Insulin-Dependent"
+C0559470,Allergy to peanuts
+C0036916,Sexually Transmitted Diseases
+C0035793,Rocky Mountain Spotted Fever
+C0006840,Candidiasis
+C0019061,Hemolytic-Uremic Syndrome
+C0010340,Critical Illness
+C0149922,Lichen Simplex Chronicus
+C0000821,Threatened abortion
+C0017574,Gingivitis
+C0023886,"Liver Abscess, Amebic"
+C0149725,Lower respiratory tract infection
+C0043167,Pertussis
+C0333519,Caries
+C0011616,Contact Dermatitis
+C0018190,Granuloma Inguinale
+C0002892,"Anemia, Pernicious"
+C0009443,Common Cold
+C0039503,Tendinitis
+C0040592,Trachoma
+C0546999,"Larva Migrans, Cutaneous"
+C0029878,Otitis Externa
+C0039128,Syphilis
+C0013369,Dysentery
+C0014013,"Empyema, Pleural"
+C0030807,Pemphigus
+C0001403,Addison's disease
+C0036830,Serum sickness (disorder)
+C0043117,"Purpura, Thrombocytopenic, Idiopathic"
+C0024440,"Macular Edema, Cystoid"
+C0265110,Cerebral Vasospasm
+C0877445,Candidemia
+C0155919,Acute pulmonary edema unspecified
+C0033893,Tension Headache
+C0005940,Bone Diseases
+C0343386,Clostridium difficile infection
+C0002986,Fabry Disease
+C0235950,Zinc deficiency
+C0007194,Hypertrophic Cardiomyopathy
+C0272322,Severe hemophilia A
+C0032290,Aspiration Pneumonia
+C0024894,mastitis
+C0029401,Osteitis Deformans
+C0406482,Nodulocystic acne
+C0085681,Hyperphosphatemia
+C0024535,"Malaria, Falciparum"
+C0858318,Plasmodium falciparum infection
+C0027609,Neonatal Abstinence Syndrome
+C0028242,Nocardia Infections
+C1527336,Sjogren's Syndrome
+C0238111,Lennox-Gastaut syndrome
+C0442867,Malignant disease
+C0007787,Transient Ischemic Attack
+C0679225,multiple pathologies
+C0085652,Pyoderma Gangrenosum
+C1290886,Chronic inflammatory disorder
+C0600260,"Lung Diseases, Obstructive"
+C0011334,Dental caries
+C0021167,Incontinence
+C0037317,Sleep disturbances
+C0268381,Immunoglobulin deposition disease
+C0949690,Spondylarthritis
+C0023283,"Leishmaniasis, Cutaneous"
+C0035235,Respiratory Syncytial Virus Infections
+C0016627,Influenza in Birds
+C0026847,Spinal Muscular Atrophy
+C0021364,"Infertility, Male"
+C0026718,Mucormycosis
+C0010481,Cushing Syndrome
+C0021359,Infertility
+C1276092,Chronic hand eczema
+C0037354,Smallpox
+C0001125,"Acidosis, Lactic"
+C0282488,Interstitial Cystitis
+C0730285,Diabetic macular edema
+C0023646,Lichen Planus
+C0026603,Motion Sickness
+C0400877,Postoperative ileus
+C0022568,Keratitis
+C1262117,Fungal keratitis
+C0008513,Chorioretinitis
+C0031099,Periodontitis
+C1608973,Acute decompensated heart failure
+C0009319,Colitis
+C0041227,Trypanosomiasis
+C0442874,Neuropathy
+C0042109,Urticaria
+C0221013,"Mastocytosis, Systemic"
+C0022972,Lambert-Eaton Myasthenic Syndrome
+C0041976,Urethritis
+C0019099,"Hemorrhagic Fever, Crimean"
+C0004031,"Aspergillosis, Allergic Bronchopulmonary"
+C0034362,Q Fever
+C1283620,Deficiency of isomaltase
+C0858321,Plasmodium vivax infection
+C1609535,Invasive candidiasis
+C0206525,"Tuberculosis, Drug-Resistant"
+C0019372,Herpesviridae Infections
+C0034734,Raynaud Disease
+C0030757,Pediculus capitis infestation
+C0872054,Latent Infection
+C0022575,Keratoconjunctivitis Sicca
+C0236663,Alcohol withdrawal syndrome
+C0238013,"ASPERGILLOSIS, INVASIVE"
+C0032064,Plague
+C0850624,"Risk factor, cardiovascular"
+C0000809,"Abortion, Habitual"
+C0578870,Chronic idiopathic urticaria
+C0598608,Hyperhomocysteinemia
+C0001261,Actinomycosis
+C0917798,Cerebral Ischemia
+C0023524,"Leukoencephalopathy, Progressive Multifocal"
+C0040015,Thrombasthenia
+C0007193,"Cardiomyopathy, Dilated"
+C0040188,Tic disorder
+C0041364,Tumor Lysis Syndrome
+C0001511,Adhesions
+C0010690,Cystinosis
+C0035455,Rhinitis
+C0022577,"Keratoconjunctivitis, Vernal"
+C0005697,"Bladder, Neurogenic"
+C0034902,"Red-Cell Aplasia, Pure"
+C0238052,"Xanthomatosis, Cerebrotendinous"
+C0042548,Plantar wart
+C0038325,Stevens-Johnson Syndrome
+C0746883,Febrile neutropenia
+C0006309,Brucellosis
+C0025294,Meningococcal meningitis
+C0149516,Chronic sinusitis NOS
+C0027927,Neurosyphilis
+C0014550,"Epilepsies, Myoclonic"
+C0020615,hypoglycemia
+C0007780,Cerebral Embolism
+C0271051,Macular retinal edema
+C0026691,Mucocutaneous Lymph Node Syndrome
+C0025007,Measles
+C0085207,"Diabetes, Gestational"
+C0746102,Chronic lung disease
+C0267167,Nonulcer dyspepsia
+C0085786,Hamman-Rich syndrome
+C0040250,Tinea Capitis
+C0085695,Chronic gastritis NOS
+C0014518,Toxic Epidermal Necrolysis
+C0024534,"Malaria, Cerebral"
+C0271429,Acute otitis media
+C0024790,Paroxysmal nocturnal hemoglobinuria
+C0745136,Hypertensive emergency
+C0235025,"Neuritis, Motor"
+C0238061,CHRONIC INFLAMMATORY POLYNEUROPATHY
+C0006666,Calciphylaxis
+C0024291,"Lymphohistiocytosis, Hemophagocytic"
+C1112209,Infectious disease of abdomen
+C0004626,"Pneumonia, Bacterial"
+C0011644,Scleroderma
+C0029453,Osteopenia
+C0042974,von Willebrand Disease
+C0700345,"Candidiasis, Vulvovaginal"
+C0019360,Herpes zoster disease
+C0085166,Bacterial Vaginosis
+C0022735,Klinefelter's Syndrome
+C0158266,Degenerative disc disease NOS
+C0743332,Focal Dystonia
+C0554628,Streptococcus pyogenes infection
+C0745138,Hypertensive urgency
+C0011882,Diabetic Neuropathies
+C0343804,Chronic Chagas' disease
+C0406326,Scalp psoriasis
+C0036330,Schistosoma mansonii infection
+C0017536,Giardiasis
+C0014179,Endometritis
+C0042870,Vitamin D Deficiency
+C0018889,Helminthiasis
+C0014869,Peptic Esophagitis
+C0036472,Scrub Typhus
+C0026857,Musculoskeletal Diseases
+C0149756,"Fasciitis, Plantar"
+C0020541,"Hypertension, Portal"
+C0751074,Diabetic Neuralgia
+C0008049,Chickenpox
+C0917796,"Optic Atrophy, Hereditary, Leber"
+C0086227,Enterobiasis
+C0154841,Central retinal vein occlusion
+C0027721,Lipoid nephrosis
+C0398686,Primary immune deficiency disorder
+C0032269,Pneumococcal Infections
+C0239295,Candidiasis of the esophagus
+C0031090,Periodontal Diseases
+C0005747,Blepharospasm
+C0027873,Neuromyelitis Optica
+C0000880,Acanthamoeba Keratitis
+C0029106,Opisthorchiasis
+C0040425,Tonsillitis
+C0740447,Diabetic peripheral neuropathy
+C0011880,Diabetic Ketoacidosis
+C0001264,"Actinomycosis, Cervicofacial"
+C0024110,Lung Abscess
+C0019655,Histoplasmosis
+C0014173,Endometrial Hyperplasia
+C0392445,Necrobiosis lipoidica diabeticorum
+C0036202,Sarcoidosis
+C0037299,Skin Ulcer
+C0733682,Familial hypophosphatemic bone disease
+C0039263,Takayasu's Arteritis
+C0271790,Subclinical hypothyroidism
+C0085083,Ovarian Hyperstimulation Syndrome
+C0008149,Chlamydia Infections
+C0017661,IGA Glomerulonephritis
+C0018021,Goiter
+C0030783,Pellagra
+C0271650,impaired glucose tolerance
+C0040028,"Thrombocythemia, Hemorrhagic"
+C0264515,Gangrenous pneumonia
+C0376175,Bell Palsy
+C0019243,Hereditary angioneurotic edema
+C0341106,Eosinophilic esophagitis
+C1328252,Mucocutaneous leishmaniasis
+C0003175,Anthrax disease
+C0041408,Turner's Syndrome
+C0003868,"Arthritis, Gouty"
+C0039103,Synovitis
+C0023860,Listeriosis
+C0684256,Bacterial septicemia
+C0039445,Hereditary hemorrhagic telangiectasia
+C0019880,Homocystinuria
+C0034186,Pyelonephritis
+C0027092,Myopia
+C0035328,Retinal Vein Occlusion
+C0041321,"Tuberculosis, Miliary"
+C0041952,Ureterolithiasis
+C0008325,Cholecystitis
+C1142132,Carnitine deficiency
+C0151449,Primary Sjogren's syndrome
+C0009766,Allergic Conjunctivitis
+C0276653,Invasive pulmonary aspergillosis
+C0032533,Polymyalgia Rheumatica
+C0013371,Shigella Infections
+C0019187,"Hepatitis, Alcoholic"
+C0038437,Female stress incontinence
+C0024537,"Malaria, Vivax"
+C0340970,Congenital neutropenia
+C0008311,Cholangitis
+C0342543,Central precocious puberty
+C1336827,Tropical Disease
+C0085437,"Meningitis, Bacterial"
+C0033845,Pseudotumor Cerebri
+C0006852,Candidiasis of vagina
+C0851578,Sleep Disorders
+C0342527,Deficiency of testosterone biosynthesis
+C0151874,Fungal infection of lung
+C0025218,Chloasma
+C0152020,Gastroparesis
+C0577708,Escherichia coli urinary tract infection
+C0040553,Toxocariasis
+C0006271,Bronchiolitis
+C0018022,Endemic goiter
+C0010692,Cystitis
+C0040259,Tinea Pedis
+C1384600,Systemic onset juvenile chronic arthritis
+C0238284,Acute mountain sickness
+C0221406,Pituitary-dependent Cushing's disease
+C0025295,"Meningitis, Pneumococcal"
+C0030499,Parasitic Diseases
+C0015652,Fascioliasis
+C0011636,Dermatophytosis
+C0854211,Bacterial keratitis
+C0001622,Adrenal Gland Hyperfunction
+C1142536,Methicillin-resistant staphylococcal aureus pneumonia
+C0029134,Optic Neuritis
+C0007384,Cataplexy
+C0010543,Cyclitis
+C0235238,Cycloplegia
+C0011974,Diaper Rash
+C1142420,Hepatitis B reactivation
+C0001126,Renal tubular acidosis
+C0019112,Hemorrhoids
+C0339573,Primary open angle glaucoma
+C0002066,Alkaptonuria
+C0002382,Alveolar Bone Loss
+C0152081,Pustular psoriasis
+C0162565,"Porphyria, Acute Intermittent"
+C0153254,Candidal endocarditis
+C0086445,Idiopathic Membranous Glomerulonephritis
+C0343065,Symptomatic dermographism
+C0162836,Hidradenitis Suppurativa
+C0019212,Hepatorenal Syndrome
+C0035439,Rheumatic Heart Disease
+C0006105,Brain Abscess
+C0267963,Exocrine pancreatic insufficiency
+C0032987,"Pregnancy, Ectopic"
+C0039841,Thiamine Deficiency
+C0031350,Pharyngitis
+C0008354,Cholera
+C0032749,Post-kala-azar dermal leishmaniasis
+C0267055,Erosive esophagitis
+C0033246,Proctitis
+C1384514,Conn Syndrome
+C0009377,Colonic Pseudo-Obstruction
+C0038363,Aphthous Stomatitis
+C0270736,Essential Tremor
+C0019345,Herpes Labialis
+C0025281,Meniere's Disease
+C0042842,Vitamin A Deficiency
+C0040021,Thromboangiitis Obliterans
+C1168250,Laryngopharyngeal reflux
+C0030848,Peyronie Disease
+C0005424,Biliary Tract Diseases
+C0011848,Diabetes Insipidus
+C0919659,Oropharyngeal candidiasis
+C0006848,Mucocutaneous candidiasis
+C0162568,"Protoporphyria, Erythropoietic"
+C0020476,Hyperlipoproteinemia
+C0014347,Enterobacteriaceae Infections
+C0026393,Molluscum Contagiosum
+C0022578,Keratoconus
+C0041912,"Infections, Upper Respiratory"
+C0582415,Acute asthma
+C0221032,Familial generalized lipodystrophy
+C0021116,Impotence
+C0010691,Cystinuria
+C0029442,Osteomalacia
+C0010418,Cryptosporidiosis
+C0041472,Endemic Flea-Borne Typhus
+C0949691,Spondylarthropathies
+C0035220,"Respiratory Distress Syndrome, Newborn"
+C0008533,Hemophilia B
+C0747256,Parasitic infection
+C0221002,"Hyperparathyroidism, Primary"
+C0262380,Asymptomatic bacteriuria
+C0264490,Acute respiratory failure
+C0025306,"[X]Meningococcemia, unspecified"
+C0269285,Cervical pregnancy
+C0043515,Zollinger-Ellison Syndrome
+C0751964,"Multiple Sclerosis, Primary Progressive"
+C0085413,"Polycystic Kidney, Autosomal Dominant"
+C0032994,"Pregnancy, Tubal"
+C0021141,Inappropriate ADH Syndrome
+C0040127,Thyroid Crisis
+C0028734,Nycturia
+C0524702,Pulmonary Thromboembolisms
+C0040147,Thyroiditis
+C0016470,Food Allergy
+C0002351,Altitude Sickness
+C0043388,Yaws
+C0004771,Bartonella Infections
+C0040896,Trichinosis
+C0042165,Anterior uveitis
+C0040262,Tinea Versicolor
+C0040921,Trichomonas Infections
+C0002831,Ancylostomiasis
+C0343532,Streptococcal toxic shock syndrome
+C0032305,"Pneumonia, Pneumocystis carinii"
+C0085074,Granuloma Annulare
+C0267509,Chronic idiopathic constipation
+C0042024,Urinary Incontinence
+C0149911,Humoral hypercalcemia of malignancy
+C0035585,Rickettsia Infections
+C0014356,Enterocolitis
+C0152068,Unspecified echinococcus granulosus
+C0392164,Pulmonary Cystic Fibrosis
+C0030636,Pasteurella Infections
+C0041351,Tularemia
+C0149523,Acute cystitis
+C0007947,Chancroids
+C0036205,"Sarcoidosis, Pulmonary"
+C0021099,Impetigo
+C0042847,Vitamin B 12 Deficiency
+C0042580,Vesico-Ureteral Reflux
+C0263353,Prurigo nodularis
+C0038034,Sporotrichosis
+C0154830,Proliferative diabetic retinopathy
+C0026709,Mucopolysaccharidosis VI
+C0035344,Retinopathy of Prematurity
+C0152965,Staphylococcal septicemia
+C0152171,Primary pulmonary hypertension
+C0034067,Pulmonary Emphysema
+C0566602,Primary sclerosing cholangitis
+C0042998,Vulvovaginitis
+C0015503,Factor VII Deficiency
+C0020474,"Hyperlipidemia, Familial Combined"
+C0040252,Tinea corporis
+C0020626,Hypoparathyroidism
+C0242584,Autoimmune Thrombocytopenia
+C0004245,Atrioventricular Block
+C0012546,Diphtheria
+C0276226,Herpes encephalitis
+C0010930,Dacryocystitis
+C0153252,Disseminated candidiasis
+C0272293,Chronic idiopathic thrombocytopenic purpura
+C1303258,Acute ST segment elevation myocardial infarction
+C0043121,Wernicke Encephalopathy
+C0343467,Erythema nodosum leprosum
+C1504336,Polypoidal choroidal vasculopathy
+C0038379,Strabismus
+C0003950,Ascariasis
+C0271093,Stargardt's disease
+C0347950,Asthma attack NOS
+C0008526,Choroiditis
+C0030446,Paralytic Ileus
+C0338395,"Meningitis, Escherichia coli"
+C1562585,Multibacillary leprosy
+C0456107,Neonatal meningitis
+C0587044,Left ventricular thrombus
+C1260710,Acute ulcerative colitis
+C0006846,"Candidiasis, Cutaneous"
+C0003850,Arteriosclerosis
+C0014877,Esotropia
+C0151467,Addisonian crisis
+C0014121,Bacterial Endocarditis
+C1275684,Meibomian gland dysfunction
+C0242459,Loeffler Syndrome
+C1527407,Eosinophilic Pneumonia
+C1510471,"Deficiency, Vitamin"
+C0002390,Extrinsic allergic alveolitis
+C0268821,Lower urinary tract infectious disease
+C0238067,"Colitis, Collagenous"
+C0038463,Strongyloidiasis
+C0035021,Relapsing Fever
+C0010666,Cystic acne
+C0002418,Amblyopia
+C0030409,Paracoccidioidomycosis
+C0009186,Coccidioidomycosis
+C0038166,Staphylococcal Skin Infections
+C0270846,Epileptic drop attack
+C0151970,Ulcer of esophagus
+C0271623,Hypogonadotropic hypogonadism
+C0232940,Secondary physiologic amenorrhea
+C0020501,"Hyperoxaluria, Primary"
+C0024198,Lyme Disease
+C0153188,"[X]Late syphilis, unspecified"
+C0271568,Laron Syndrome
+C1444855,Dupuytren's disease
+C0154301,Secondary thrombocytopenia NOS
+C0011268,Senile dementia
+C0009768,Bacterial conjunctivitis
+C0206141,Idiopathic Hypereosinophilic Syndrome
+C0023241,Legionnaires' Disease
+C0019147,Hepatic Coma
+C0854328,Anaerobic bacterial infection NOS
+C0040560,"Toxoplasmosis, Congenital"
+C0006444,Bursitis
+C0039520,Tenosynovitis
+C0267919,Primary cholangitis
+C0151721,Testicular hypogonadism
+C0023968,Loiasis
+C0343886,Gastrointestinal candidiasis
+C0023786,Mucopolysaccharidosis I
+C0017531,Angiolymphoid hyperplasia
+C0029077,"Ophthalmia, Sympathetic"
+C0085132,Mucopolysaccharidosis VII
+C0238425,Hemoglobin SS disease with crisis
+C0023817,"Lipoprotein Lipase Deficiency, Familial"
+C1527383,Morphea
+C0155866,Inhalational anthrax
+C0042875,Vitamin E Deficiency
+C0162627,"Skin Diseases, Bacterial"
+C0009770,Inclusion conjunctivitis
+C0005716,Blastomycosis
+C0034012,"Puberty, Delayed"
+C0032302,Mycoplasma pneumonia
+C0035460,"Rhinitis, Vasomotor"
+C1384589,Tinea cruris
+C0014733,Erysipelas
+C0154731,Glossopharyngeal Neuralgia
+C0158996,Anemia of prematurity
+C0085438,"Meningitis, Fungal"
+C0022570,"Keratitis, Dendritic"
+C1274228,Chylomicronemia syndrome
+C0042485,Venous Insufficiency
+C1563054,Dapsone resistant mycobacterium leprae disease
+C0008350,Cholelithiasis
+C0042376,Vascular Headaches
+C0220989,Acquired partial lipodystrophy
+C0236830,Neuroleptic-Induced Parkinsonism
+C0700502,Acquired hypothyroidism NOS
+C0035468,Rhinoscleroma
+C0542269,Non-Q wave myocardial infarction
+C0271152,Malignant glaucoma
+C0155264,Endocrine exopthalmos
+C0020479,Hyperlipoproteinemia Type III
+C0155804,Acute maxillary sinusitis
+C0751434,Classical phenylketonuria
+C0349719,Herpes simplex infection of skin
+C0341503,Bacterial peritonitis
+C0149985,Secondary syphilis
+C0396072,Laryngeal papillomatosis
+C0162533,"Porphyrias, Hepatic"
+C0275652,Acute gonococcal urethritis
+C0022073,Iridocyclitis
+C0022573,Keratoconjunctivitis
+C0206247,Amyloid Neuropathies
+C0152253,Posterior synechiae
+C0149893,Secondary/other glaucoma
+C0014549,Tonic-Clonic Epilepsy
+C0349009,Candidal septicemia
+C0085697,Chronic pyelonephritis NOS
+C0520767,Staphylococcal endocarditis
+C0152499,Acute amebiasis
+C0010308,Cretinism
+C0152964,"[X]Streptococcal septicemia, unspecified"
+C0220987,Hereditary orotic aciduria
+C0339959,Chlamydial pneumonia
+C0006060,Boutonneuse Fever
+C0221023,Cyclical neutropenia
+C0030568,"Parkinson Disease, Postencephalitic"
+C0024536,Quartan malaria
+C0153256,Candidal meningitis
+C0275982,Enteric campylobacteriosis
+C0271932,Anemia of chronic renal failure
+C0000814,"Abortion, Missed"
+C0016034,Breast Fibrocystic Disease
+C0016867,Furunculosis
+C0032308,"Pneumonia, Staphylococcal"
+C0031190,Persistent Fetal Circulation Syndrome
+C0027145,Myxedema
+C0014752,Erythrasma
+C0039131,"Syphilis, Congenital"
+C0700053,Idiopathic hypertrophic subaortic stenosis
+C1274323,Recurrent genital herpes simplex
+C0342634,Neonatal hypocalcemia NOS
+C0010043,Corneal Ulcer
+C0276085,Ecthyma gangrenosum
+C0036130,Salpingitis
+C0003615,Appendicitis
+C0338396,Proteus meningitis
+C0178416,"Anemia, Hypoplastic"
+C0339968,Neonatal pneumonia
+C0043116,HMN (Hereditary Motor Neuropathy) Proximal Type I
+C0275665,Gonococcal proctitis NOS
+C0022951,Lactose Intolerance
+C0473527,Hypoalphalipoproteinemia
+C0936215,Vitamin B 6 Deficiency
+C0243001,Abdominal Abscess
+C0948896,Primary hypogonadism
+C0268108,Chronic gouty arthritis
+C0151940,Hypocalcemic tetany
+C0030528,Paratyphoid Fever
+C0272325,Acquired factor VIII deficiency disease
+C0024586,Malignant Carcinoid Syndrome
+C0013882,Elephantiasis
+C0276228,Herpes simplex keratoconjunctivitis
+C0343378,Helicobacter-associated gastritis
+C0519030,Klebsiella pneumonia
+C0019088,Hemorrhagic Disease of Newborn
+C0016167,Fissure in Ano
+C0024286,Lymphogranuloma Venereum
+C0342826,3-Beta-hydroxy-delta-5-C27-steroid dehydrogenase deficiency
+C0036285,Scarlet Fever
+C0009773,"Conjunctivitis, Vernal"
+C1263758,Female genital tract infection
+C0029076,Ophthalmia Neonatorum
+C0341558,Intestinal infection due to E. coli
+C0154639,Streptococcal meningitis
+C0009769,"Conjunctivitis, Giant Papillary"
+C0025293,"Meningitis, Listeria"
+C0268124,Adenosine deaminase deficiency
+C0152486,Salmonella septicemia
+C0149526,Allergic urticaria
+C0267390,Chronic ulcerative rectosigmoiditis
+C0043208,Wolman Disease
+C1278807,Chlamydial urethritis
+C0016436,Folliculitis
+C0276088,Septicemia due to E. Coli
+C0729524,Bacterial urinary infection
+C0276026,Haemophilus influenzae pneumonia
+C0085656,Nummular eczema
+C0340354,Q fever endocarditis
+C0041343,Tubo-ovarian abscess
+C0234974,Simple Partial Seizures
+C0405580,Adrenal cortical hypofunction
+C0030785,Pelvic abscess
+C0030758,Body louse infestation
+C0543822,Atherosclerotic occlusive disease
+C0152936,Septicemic plague
+C0020630,Hypophosphatasia
+C0238298,Myxedema coma
+C0269050,Endomyometritis
+C0041473,"Typhus, Epidemic Louse-Borne"
+C0151482,Megaloblastic anemia due to folate deficiency
+C0013338,Pituitary dwarfism
+C0153246,Tinea manus
+C0275959,Acute tuberculosis
+C0014488,Epicondylitis
+C0029291,Psittacosis
+C0259799,Punctate epithelial keratoconjunctivitis
+C0406317,Chronic small plaque psoriasis
+C0751122,"Epilepsy, Myoclonic, Infantile, Severe"
+C0275566,Pulmonary actinomycosis
+C0687148,Mineral deficiency
+C0155814,Acute epiglottitis NOS
+C0275556,Acute bacterial sinusitis
+C0423775,Scurfiness of scalp
+C0030759,Infestation by Phthirus pubis
+C0948245,Cytokine release syndrome
+C0600041,Infective cystitis
+C0406486,Ocular Rosacea
+C0524688,Pneumonic Plague
+C0034686,Rat-Bite Fever
+C0005138,Berylliosis
+C0343730,Perianal warts
+C0031946,Pinta
+C0149948,Acute otitis externa
+C0342938,Pantothenic acid deficiency
+C0577690,Proteus septicemia
+C0232058,Apnea in the newborn
+C0041648,Infection by Uncinaria
+C0149704,Gingivostomatitis
+C0234978,Motor cortex epilepsy
+C0276725,Disseminated sporotrichosis
+C0276758,Fusarium infection
+C0031157,Peritonsillar Abscess
+C0520777,Chlamydial pelvic inflammatory disease
+C1278797,Postnatal infection
+C1112486,Aggressive Systemic Mastocytosis
+C0026705,Mucopolysaccharidosis II
+C0275804,Streptococcal tonsillitis
+C0220756,"Niemann-Pick Disease, Type C"
+C0409818,"Chronic infantile neurological, cutaneous and articular syndrome"
+C0342731,Deficiency of mevalonate kinase
+C0006181,Brill-Zinsser Disease
+C0036271,Scalp Dermatoses
+C0276648,Mycotic endocarditis
+C0022340,Late-Infantile Neuronal Ceroid Lipfuscinosis
+C0348898,Irritable bowel syndrome with diarrhea
+C0339317,Non-infectious anterior uveitis
+C0152072,Ovale malaria
+C0153216,Gonococcal joint infection NOS
+C0339296,Neurotrophic keratitis
+C0001263,Abdominal actinomycosis
+C0030578,Paronychia Inflammation
+C0003177,Cutaneous anthrax
+C1274321,Recurrent herpes simplex labialis
+C0155440,Chronic tubotympanic suppurative otitis media
+C0271066,Choroidal retinal neovascularization
+C0475811,Disorder of keratinization
+C0032024,Pityriasis
+C0581392,Exacerbation of multiple sclerosis
+C0549398,Meibomianitis
+C0154640,Staphylococcal meningitis
+C0730274,Vitreomacular traction syndrome
+C0271693,Acquired generalized lipodystrophy
+C0086651,MPS IV A
+C5203670,COVID-19
+C1561643,Chronic Kidney Diseases
+C2973725,Pulmonary arterial hypertension
+C2717865,Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis
+C0751967,"Multiple Sclerosis, Relapsing-Remitting"
+C0085109,Corneal Neovascularization
+C0003811,Cardiac Arrhythmia
+C1704272,Benign Prostatic Hyperplasia
+C0457949,Chronic low back pain
+C0027430,Nasal Polyps
+C0004238,Atrial Fibrillation
+C0235480,Paroxysmal atrial fibrillation
+C0867389,Chronic graft-versus-host disease
+C0085612,Ventricular arrhythmia
+C0151636,Premature ventricular contractions
+C3241937,Nonalcoholic Steatohepatitis
+C0521173,Granulomatosis
+C0020557,Hypertriglyceridemia
+C2894027,Post traumatic osteoarthritis
+C0007820,Cerebrovascular Disorders
+C0003962,Ascites
+C0002170,Alopecia
+C3203547,Axial spondyloarthritis
+C0085682,Hypophosphatemia
+C0020651,"Hypotension, Orthostatic"
+C0020598,Hypocalcemia
+C0751495,"Seizures, Focal"
+C2936328,Neglected Diseases
+C1861172,Venous Thromboembolism
+C0018790,Cardiac Arrest
+C2747816,Severe Malaria
+C0008489,Chorea
+C0002792,anaphylaxis
+C1960870,Transformed migraine
+C1800706,Idiopathic Pulmonary Fibrosis
+C2363973,Chronic thromboembolic pulmonary hypertension
+C0040517,Gilles de la Tourette syndrome
+C0015934,Fetal Growth Retardation
+C4687714,Steroid Refractory Graft Versus Host Disease
+C3495559,Juvenile arthritis
+C0020625,Hyponatremia
+C0010709,Cyst
+C0581377,Decompensated cardiac failure
+C2717961,Thrombotic Microangiopathies
+C0040264,Tinnitus
+C0042514,"Tachycardia, Ventricular"
+C0494475,Tonic - clonic seizures
+C0342257,Complications of Diabetes Mellitus
+C2931788,Atypical Hemolytic Uremic Syndrome
+C1961835,"Gaucher Disease, Type 1"
+C0037036,Sialorrhea
+C1827301,Extensively Drug-Resistant Tuberculosis
+C0157749,Arthropathy associated with infection
+C0220994,Hyperammonemia
+C1321756,Achalasia
+C1868889,Irritable bowel syndrome characterized by constipation
+C0694549,Community acquired pneumonia
+C0014358,"Enterocolitis, Pseudomembranous"
+C1318973,Staphylococcus aureus infection
+C3875321,Inflammatory dermatosis
+C0013390,Dysmenorrhea
+C2711256,Ischemic priapism
+C0151723,Hypomagnesemia
+C0149721,Left Ventricular Hypertrophy
+C0268490,"Tyrosinemia, Type I"
+C0917799,Hypersomnia
+C2607914,Allergic rhinitis (disorder)
+C0001627,Congenital adrenal hyperplasia
+C0342882,Familial hypercholesterolemia - heterozygous
+C0272199,Familial Hemophagocytic Lymphocytosis
+C3661921,Perioperative hypertension
+C1827266,Decompensated chronic heart failure
+C1632842,Complicated appendicitis
+C0032897,Prader-Willi Syndrome
+C0278152,Hemifacial Spasm
+C0428974,Supraventricular arrhythmia
+C1275126,TNF receptor-associated periodic fever syndrome (TRAPS)
+C0158371,Acute osteomyelitis
+C2242472,Infection of bone
+C2316212,Cryopyrin-Associated Periodic Syndromes
+C0154246,"Urea Cycle Disorders, Inborn"
+C0152516,Bacterial enteritis
+C0005743,Blepharoconjunctivitis
+C0028326,Noonan Syndrome
+C5392833,Acute Ischemic Stroke
+C1320547,Allergic otitis externa
+C0149966,Gonorrhea of pharynx
+C0392190,Mucositis following radiation therapy
+C0019572,Hirsutism
+C1277187,Left ventricular systolic dysfunction
+C0472713,Anemia of renal disease
+C1274988,Drug-induced mucositis
+C1997351,Left ventricular cardiac dysfunction
+C0221154,Paroxysmal hypertension
+C2733595,Pulmonary Mycobacterium avium complex infection
+C0342881,Homozygous Familial Hypercholesterolemia
+C3839346,Heart failure with reduced ejection fraction
+C0751362,Narcolepsy-Cataplexy Syndrome

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug-Disease Relationship Predictor | Master's Thesis Project</title>
+    <meta name="description" content="Predict therapeutic relationships between drugs and diseases using AI-powered analysis. A Master's thesis research project.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💊</text></svg>">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui@1.13.2/dist/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Disclaimer Modal -->
+    <div class="modal fade" id="disclaimerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: var(--warning); color: white;">
+                    <h5 class="modal-title" id="disclaimerModalLabel">Important Disclaimer</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="disclaimer-content">
+                        <div class="disclaimer-icon mb-3 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-exclamation-triangle-fill text-warning" viewBox="0 0 16 16">
+                                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-center mb-3">Research Purposes Only</h4>
+                        <p>This application is for <strong>research and educational purposes only</strong> and not for personal or clinical use. By using this application, you acknowledge and agree to the following terms:</p>
+                        <ul>
+                            <li>The predictions made by this model are based on research data and should <strong>not</strong> be used to make medical decisions.</li>
+                            <li>Always consult with a healthcare professional before starting or changing any treatment.</li>
+                            <li>The developer and associated institutions do not take responsibility for any misuse of this information or for actions taken based on predictions provided by this tool.</li>
+                            <li>This application is a product of academic research as part of a Master's thesis and is intended for demonstration of AI capabilities in biomedical research.</li>
+                        </ul>
+                        <div class="form-check mt-4 mb-3">
+                            <input class="form-check-input" type="checkbox" id="disclaimerCheck" required>
+                            <label class="form-check-label" for="disclaimerCheck">
+                                I understand and agree that this application is for research purposes only and not for medical decision-making
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="acceptDisclaimer" disabled>Accept & Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <span class="hero-badge">Master's Thesis Research</span>
+            <h1>Drug-Disease Relationship Predictor</h1>
+            <p>An intelligent system that predicts the therapeutic relationships between drugs and diseases using advanced machine learning techniques</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Main Prediction Column -->
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Prediction Tool</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="prediction-form">
+                            <!-- Hidden input for tracking input type based on selection -->
+                            <input type="hidden" name="input_type" id="input_type" value="auto">
+                            
+                            <div class="row">
+                                <!-- Drug Input Section -->
+                                <div class="col-md-6 mb-3">
+                                    <label for="drug_input" class="form-label">Drug</label>
+                                    <input type="text" class="form-control" id="drug_input" name="drug_input" 
+                                        placeholder="Enter a drug name or CUI code" required>
+                                    <div class="form-text">Search by name (e.g., 'Metformin') or CUI (e.g., 'C0025859')</div>
+                                    <div id="selected-drug-info" class="selected-item-info mt-2 d-none">
+                                        <span class="badge bg-info me-2">Selected:</span>
+                                        <span id="selected-drug-name"></span>
+                                        <span class="text-muted">(<span id="selected-drug-cui"></span>)</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Disease Input Section -->
+                                <div class="col-md-6 mb-3">
+                                    <label for="disease_input" class="form-label">Disease</label>
+                                    <input type="text" class="form-control" id="disease_input" name="disease_input" 
+                                        placeholder="Enter a disease name or CUI code" required>
+                                    <div class="form-text">Search by name (e.g., 'Diabetes') or CUI (e.g., 'C0011849')</div>
+                                    <div id="selected-disease-info" class="selected-item-info mt-2 d-none">
+                                        <span class="badge bg-info me-2">Selected:</span>
+                                        <span id="selected-disease-name"></span>
+                                        <span class="text-muted">(<span id="selected-disease-cui"></span>)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid mt-4">
+                                <button type="submit" class="btn btn-primary">Predict Relationship</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="error-alert" class="alert alert-danger mt-4 d-none"></div>
+
+                <div id="result-section" class="card mt-4 d-none">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="mb-0">Prediction Results</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-12 text-center mb-3">
+                                <h5 class="mb-3">Relationship Assessment</h5>
+                                <div class="progress mb-3">
+                                    <div id="probability-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <h4 id="result-interpretation" class="mt-3"></h4>
+                                <p><strong>Probability Score:</strong> <span id="result-probability"></span></p>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="entity-card drug-card">
+                                    <h5>Drug Information</h5>
+                                    <p><strong>Name:</strong> <span id="result-drug-name"></span></p>
+                                    <p class="mb-0"><strong>CUI:</strong> <span id="result-drug-cui"></span></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="entity-card disease-card">
+                                    <h5>Disease Information</h5>
+                                    <p><strong>Name:</strong> <span id="result-disease-name"></span></p>
+                                    <p class="mb-0"><strong>CUI:</strong> <span id="result-disease-cui"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white">
+                        <h4 class="mb-0">About the application</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="lead-text">This platform predicts the likelihood that a specific drug can be used to treat a particular disease.</p>
+                        <p>The system is designed to predict therapeutic relationships between drugs and diseases using machine learning models trained on extensive biomedical knowledge.</p>
+                        
+                        <div class="app-features mt-4">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h5>Smart Search</h5>
+                                    <p>Search by name or standardized CUI codes</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-text">
+                                    <h5>Probability Prediction</h5>
+                                    <p>Get medical relationship assessments</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-3">
+                            <button type="button" class="btn btn-outline-warning btn-sm mt-2" id="showDisclaimerBtn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-exclamation-triangle me-1" viewBox="0 0 16 16">
+                                    <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+                                    <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+                                </svg>
+                                View Disclaimer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-4">
+                    <div class="card-header bg-info text-white">
+                        <h4 class="mb-0">About the Research</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>This application is built as part of a Master's thesis in Computer Engineering with a specialization in Artificial Intelligence.</p>
+                        <p>The model enables healthcare professionals and researchers to explore potential treatments and identify promising drug-disease associations.</p>
+                        <hr>
+                        <h5>Research Highlights</h5>
+                        <ul>
+                            <li>Uses neural network architecture with FastText embeddings</li>
+                            <li>Trained on a verified dataset of known drug-disease relationships</li>
+                            <li>Incorporates biomedical concept identifiers (CUIs) for standardization</li>
+                            <li>Cross-validation with 5 folds for robustness</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="card mt-4 usage-guide">
+                    <div class="card-header" style="background-color: var(--secondary); color: white;">
+                        <h4 class="mb-0">How to Use</h4>
+                    </div>
+                    <div class="card-body">
+                        <ol class="usage-steps">
+                            <li>
+                                <h5>Search for a Drug</h5>
+                                <p>Enter a drug name (e.g., "Metformin") or its CUI code in the drug field and select from the suggestions.</p>
+                            </li>
+                            <li>
+                                <h5>Search for a Disease</h5>
+                                <p>Enter a disease name (e.g., "Diabetes") or its CUI code in the disease field and select from the suggestions.</p>
+                            </li>
+                            <li>
+                                <h5>Get Prediction</h5>
+                                <p>Click the "Predict Relationship" button to see the likelihood that the drug can treat the disease.</p>
+                            </li>
+                            <li>
+                                <h5>Interpret Results</h5>
+                                <p>Review the probability score and interpretation to understand the predicted relationship strength.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-branding">
+                    <!-- <h3>Drug-Disease Relationship Predictor</h3> -->
+                    <p class="thesis-credit">Developed as part of a Master's thesis in Computer Engineering specializing in Artificial Intelligence.</p>
+                </div>
+                <div class="developer-profile">
+                    <div class="profile-content">
+                        <div class="profile-image">
+                            <img src="{{ url_for('static', filename='images/personal_picture.JPG') }}" alt="Ahmed Alqershi">
+                        </div>
+                        <div class="profile-info">
+                            <h4>Ahmed Alqershi</h4>
+                            <p>AI Research Analyst | MSc in Computer Engineering</p>
+                            <div class="profile-links">
+                                <a href="https://www.linkedin.com/in/ahmed-alqershi/" class="contact-link" target="_blank">
+                                    <img src="{{ url_for('static', filename='images/icon_linkedin.png') }}" alt="LinkedIn">
+                                    LinkedIn
+                                </a>
+                                <a href="mailto:alqershiahmed20@gmail.com" class="contact-link">
+                                    <img src="{{ url_for('static', filename='images/icon_mail.png') }}" alt="Email">
+                                    Email
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="university-affiliation">
+                <div class="university-logo">
+                    <img src="{{ url_for('static', filename='images/agu_logo.png') }}" alt="Abdullah Gül University">
+                </div>
+            </div> -->
+            <div class="copyright">
+                &copy; 2025 Ahmed Alqershi | Master's Thesis Project | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        // Disclaimer modal functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const disclaimerModal = new bootstrap.Modal(document.getElementById('disclaimerModal'), {
+                backdrop: 'static',
+                keyboard: false
+            });
+            
+            // Show the disclaimer modal when the page loads
+            disclaimerModal.show();
+            
+            // Handle checkbox change
+            const disclaimerCheck = document.getElementById('disclaimerCheck');
+            const acceptButton = document.getElementById('acceptDisclaimer');
+            
+            disclaimerCheck.addEventListener('change', function() {
+                acceptButton.disabled = !this.checked;
+            });
+            
+            // Handle accept button click
+            acceptButton.addEventListener('click', function() {
+                if (disclaimerCheck.checked) {
+                    disclaimerModal.hide();
+                    // Set a cookie to remember that the user accepted the disclaimer
+                    document.cookie = "disclaimerAccepted=true; max-age=86400"; // 24 hours
+                }
+            });
+            
+            // Show disclaimer when the button is clicked
+            document.getElementById('showDisclaimerBtn').addEventListener('click', function() {
+                disclaimerModal.show();
+            });
+            
+            // Check if the disclaimer has been accepted before
+            function getCookie(name) {
+                const value = `; ${document.cookie}`;
+                const parts = value.split(`; ${name}=`);
+                if (parts.length === 2) return parts.pop().split(';').shift();
+            }
+            
+            // If they've already accepted, don't show the modal again
+            if (getCookie('disclaimerAccepted') === 'true') {
+                disclaimerModal.hide();
+            }
+        });
+    </script>
+</body>
+</html>
