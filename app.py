@@ -122,19 +122,9 @@ def predict():
         # Get entity names for display
         drug_name = drug_cui_to_name.get(drug_cui, "Unknown")
         disease_name = disease_cui_to_name.get(disease_cui, "Unknown")
-    
-        # Default model paths
-        model_path = 'best_model.keras'
-        embedding_model_path = 'fasttext_model.pkl'
         
         # Get prediction
-        probability = predict_drug_disease_pair(
-            drug_cui, 
-            disease_cui,
-            model_path=model_path,
-            embedding_model_path=embedding_model_path,
-            cnn=0,
-        )
+        probability = predict_drug_disease_pair(drug_cui, disease_cui)
         
         # Determine interpretation
         if probability > 0.8:
