@@ -22,10 +22,10 @@ drug_data = pd.read_csv('unique_subjects.csv')
 disease_data = pd.read_csv('unique_objects.csv')
 
 # Create dictionaries for fast lookups
-drug_cui_to_name = dict(zip(drug_data['Subject_CUI'], drug_data['Subject_Name']))
-drug_name_to_cui = dict(zip(drug_data['Subject_Name'], drug_data['Subject_CUI']))
-disease_cui_to_name = dict(zip(disease_data['Object_CUI'], disease_data['Object_Name']))
-disease_name_to_cui = dict(zip(disease_data['Object_Name'], disease_data['Object_CUI']))
+drug_cui_to_name = dict(zip(drug_data['drugs_CUI'], drug_data['Name']))
+drug_name_to_cui = dict(zip(drug_data['Name'], drug_data['drugs_CUI']))
+disease_cui_to_name = dict(zip(disease_data['diseases_CUI'], disease_data['Name']))
+disease_name_to_cui = dict(zip(disease_data['Name'], disease_data['diseases_CUI']))
 
 app = Flask(__name__)
 
@@ -39,8 +39,8 @@ def get_drugs():
     items = []
     for _, row in drug_data.iterrows():
         items.append({
-            'cui': row['Subject_CUI'],
-            'name': row['Subject_Name']
+            'cui': row['drugs_CUI'],
+            'name': row['Name']
         })
     return jsonify(items)
 
@@ -50,8 +50,8 @@ def get_diseases():
     items = []
     for _, row in disease_data.iterrows():
         items.append({
-            'cui': row['Object_CUI'],
-            'name': row['Object_Name']
+            'cui': row['diseases_CUI'],
+            'name': row['Name']
         })
     return jsonify(items)
 
