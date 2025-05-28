@@ -55,8 +55,8 @@ def predict_drug_disease_pair(drug_cui, disease_cui):
         drug_arr = np.array([drug_vec])
         disease_arr = np.array([disease_vec])
         
-        # drug_arr = np.expand_dims(drug_arr, axis=-1)
-        # disease_arr = np.expand_dims(disease_arr, axis=-1)
+        drug_arr = np.expand_dims(drug_arr, axis=-1)
+        disease_arr = np.expand_dims(disease_arr, axis=-1)
         
         # Get prediction
         prediction = model.predict([drug_arr, disease_arr])[0][0]
