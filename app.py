@@ -18,8 +18,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Load the entity data for lookups
-drug_data = pd.read_csv('unique_subjects.csv')
-disease_data = pd.read_csv('unique_objects.csv')
+drug_data = pd.read_csv('unique_subjects_old.csv')
+disease_data = pd.read_csv('unique_objects_old.csv')
 
 # Create dictionaries for fast lookups
 drug_cui_to_name = dict(zip(drug_data['drugs_CUI'], drug_data['Name']))

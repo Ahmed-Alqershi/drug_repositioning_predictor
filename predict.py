@@ -39,10 +39,10 @@ def predict_drug_disease_pair(drug_cui, disease_cui):
     # Load models
     try:
         # Load JSON file for drug/disease word vectors
-        with open("subjects.json") as f:
+        with open("subjects_old.json") as f:
             subjects = json.load(f)
 
-        with open("objects.json") as f:
+        with open("objects_old.json") as f:
             objects = json.load(f)
         
         # Load SNN model
